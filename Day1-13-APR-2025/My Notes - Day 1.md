@@ -87,7 +87,7 @@
 ```bash
 sudo yum install java -y     # Java 11 or 8
 sudo yum install maven -y    # Maven 3.9.1
-```
+
 
 ---
 

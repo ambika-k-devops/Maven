@@ -31,6 +31,13 @@
 #### Python
 - PyBuilder
 
+#### JavaScript
+- Webpack
+- Gulp
+- Grunt
+- Parcel
+- Rollup
+
 #### .NET
 - MS Build
 - Nant

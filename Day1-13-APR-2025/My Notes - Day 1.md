@@ -37,6 +37,7 @@
 - Grunt
 - Parcel
 - Rollup
+- **Vite**
 
 #### .NET
 - MS Build

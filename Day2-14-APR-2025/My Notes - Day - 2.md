@@ -3,8 +3,6 @@
 ## Sample `pom.xml` [Project Object Model]
 ---
 
-```markdown
-```xml
 <project>
     <modelVersion>4.0.0</modelVersion>
 
@@ -53,7 +51,6 @@
         </profile>
     </profiles>
 </project>
-```
 
 ---
 

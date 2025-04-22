@@ -1,8 +1,8 @@
 # Maven Project & Lifecycle Notes
 
 ## Sample `pom.xml` [Project Object Model]
----
 
+```
 <project>
     <modelVersion>4.0.0</modelVersion>
 
@@ -51,9 +51,7 @@
         </profile>
     </profiles>
 </project>
-
----
-
+```
 ## Testing Frameworks
 
 | Language     | Framework |

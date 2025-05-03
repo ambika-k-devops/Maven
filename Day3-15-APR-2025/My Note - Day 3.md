@@ -39,3 +39,34 @@ scp -i /path/to/key.pem -r /local/folder ec2-user@<EC2-IP>:/remote/path/
 ```
 
 Would you like a quick script to automate this with variables?
+- -----------------------------------------------
+Got it — you're on a Linux server (root\@ip-172-31-40-179) and you created a directory called `mavenlocalrepo`, but now you want to **remove** it.
+
+To remove the directory `mavenlocalrepo`, you can use:
+
+```bash
+rm -r mavenlocalrepo
+```
+
+**Explanation:**
+
+* `rm` = remove
+* `-r` = recursively (required to delete directories)
+
+If you want to **safely** remove it (i.e., it will ask you for confirmation before deleting each file/directory inside it), you can use:
+
+```bash
+rm -ri mavenlocalrepo
+```
+
+**Important:** If `mavenlocalrepo` is **empty**, you could also simply use:
+
+```bash
+rmdir mavenlocalrepo
+```
+
+---
+
+Would you like me also to explain how to remove it if it were a Git repository, not just a directory? (in case that's what you meant by "repository"?)
+- -------------------------------------------------------------------
+
